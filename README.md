@@ -19,7 +19,7 @@ When configuring the "Data Input Parameters", consult the following table for pa
 | `object_type` | Type of data to query for.  | `key_requests,arm` (comma-delimited for multiple object types) |
 
 > NOTE: For more details on valid values for `object_type` or the format of `start_time`, please visit the
-> [Ionic Download API documentation](https://dev.ionic.com/download/download-intro.html).
+> [Ionic Download API documentation](https://dev.ionic.com/management-api/download/download-intro.html).
 
 The Ionic Download API provides the ability to paginate through your tenant's data, so we make use of this here.
 The included `forwarder.py` script uses the input parameters to construct an initial request to send to the Ionic Download API, 
